@@ -1,0 +1,13 @@
+@baseUrl = http://localhost:3000
+
+### info 
+GET {{baseUrl}}/
+
+#all products
+GET {{baseUrl}}/api/products
+
+### category filters
+GET {{baseUrl}}/api/products?category=React
+
+#1 product
+GET {{baseUrl}}/api/products/3
